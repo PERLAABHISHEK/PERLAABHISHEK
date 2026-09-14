@@ -82,6 +82,16 @@ An AI-powered security monitoring system that analyzes live camera/video streams
 />
 </a>
 
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=perlaabhishek@gmail.com" target="_blank">
+  <img 
+    align="center" 
+    src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png"
+    alt="Email"
+    height="32"
+    width="32"
+  />
+</a>
+
 </p>
 
 ---
@@ -109,7 +119,6 @@ An AI-powered security monitoring system that analyzes live camera/video streams
     height="40"
   />
 </a>
----
 
 ## 📊 GitHub Statistics
 
@@ -140,9 +149,6 @@ An AI-powered security monitoring system that analyzes live camera/video streams
 
 </p>
 
----
----
-
 ## 🌍 Languages Known
 
 | 🗣️ Language | 📊 Proficiency |
@@ -160,8 +166,6 @@ An AI-powered security monitoring system that analyzes live camera/video streams
 | 🤖 AI Projects | 🧠 Generative AI | ☁️ Cloud |
 |:---:|:---:|:---:|
 | Building AI Projects | Learning GenAI | Exploring Cloud Technologies |
-
----
 
 ## 🎯 Current Focus
 
