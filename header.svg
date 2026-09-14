@@ -1,0 +1,103 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Animated gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6A4C93">
+        <animate attributeName="stop-color"
+                 values="#6A4C93;#4361EE;#00B4D8;#6A4C93"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="50%" stop-color="#4361EE">
+        <animate attributeName="stop-color"
+                 values="#4361EE;#00B4D8;#7209B7;#4361EE"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#00B4D8">
+        <animate attributeName="stop-color"
+                 values="#00B4D8;#7209B7;#6A4C93;#00B4D8"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Moving background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- Animated circles -->
+  <circle cx="100" cy="80" r="35" fill="#ffffff" opacity="0.08">
+    <animate attributeName="cx"
+             values="100;1100;100"
+             dur="12s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1000" cy="220" r="50" fill="#ffffff" opacity="0.06">
+    <animate attributeName="cx"
+             values="1000;100;1000"
+             dur="15s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main title -->
+  <text x="600" y="125"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="58"
+        font-weight="bold"
+        fill="white"
+        filter="url(#glow)">
+    Welcome to My Profile!
+  </text>
+
+  <!-- Name -->
+  <text x="600" y="180"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28"
+        font-weight="bold"
+        fill="white">
+    PERLA ABHISHEK
+  </text>
+
+  <!-- Role -->
+  <text x="600" y="225"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22"
+        fill="white"
+        opacity="0.95">
+    AI ENGINEER • PYTHON • GENERATIVE AI • CLOUD
+  </text>
+
+  <!-- Animated bottom wave -->
+  <path d="M0 260 Q150 220 300 260 T600 260 T900 260 T1200 260 V300 H0 Z"
+        fill="white"
+        opacity="0.15">
+    <animate attributeName="d"
+             values="
+             M0 260 Q150 220 300 260 T600 260 T900 260 T1200 260 V300 H0 Z;
+             M0 260 Q150 300 300 260 T600 260 T900 260 T1200 260 V300 H0 Z;
+             M0 260 Q150 220 300 260 T600 260 T900 260 T1200 260 V300 H0 Z"
+             dur="6s"
+             repeatCount="indefinite"/>
+  </path>
+
+</svg>
