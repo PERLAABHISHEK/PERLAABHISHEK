@@ -38,7 +38,7 @@
   align="right"
   src="./developer.gif"
   alt="Developer Coding Animation"
-  width="400"
+  width="550"
 />
 
 </td>
