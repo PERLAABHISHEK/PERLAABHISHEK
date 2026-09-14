@@ -34,8 +34,9 @@
 
 <td width="45%" align="center">
 
-<img 
-  src="https://raw.githubusercontent.com/rajput2107/rajput2107/master/Assets/Developer.gif" 
+<img
+  align="right"
+  src="./developer.gif"
   alt="Developer Coding Animation"
   width="400"
 />
